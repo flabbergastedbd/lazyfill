@@ -80,7 +80,7 @@ function LazyFill() {
 
     _.templateSettings = {
       interpolate: /\{(.+?)\}/g,
-      evaluate: /\{%(.+?)\%}/g
+      evaluate: /\{%(.+?)%\}/g
     };
 
     // Register all menu commands that match
@@ -99,6 +99,6 @@ function LazyFill() {
   };
 
   // Metadata
-  this.VERSION = 0.1;
+  this.VERSION = 0.2;
   // ---------------------------- End exported Functions -----------------------------------
 }
