@@ -5,7 +5,7 @@
 // @description  try to take over the world!
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js#sha256=FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=
 // @require      https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.0/underscore-min.js#sha256=tr4FvXVZp8nkW7TvW4OYA5KWOs7fc2m5B6LN+AOn1VI=
-// @require https://cdn.rawgit.com/tunnelshade/lazyfill/abc4e0394ab61fbee144319a550240951be92e38/lazyfill.api.js#sha256=1+nyD/XGp5asReyimMZFGo3pqXzBFtfiFMK2ZsQeuWc=
+// @require https://cdn.rawgit.com/tunnelshade/lazyfill/0daf611f3064a0edfec79f3bb7e7d66cd8ebc98a/lazyfill.api.js#sha256=LXjaBo2C5J2LagAgu9wB23rFhyMYvPmYmz9JwBS4/b0=
 // @match        https://jira.internal.site/
 // @grant        GM_registerMenuCommand
 // ==/UserScript==
@@ -25,14 +25,14 @@ lFill.templates["Clickjacking"] = {
     "fields": [
       {
         "selector": "#title",
-        "content": "Missing X-Frame-Options or frame-ancestors on {endpoints}",
+        "content": "Missing X-Frame-Options or frame-ancestors on {{endpoints}}",
       },
       {
         "selector": "#description",
         "content": `
 h4. Issue
 
-Lack of X-Frame-Options header or CSP frame-ancestors headers on {endpoints} lead to clickjacking attacks. More help: https://www.owasp.org/index.php/Clickjacking
+Lack of X-Frame-Options header or CSP frame-ancestors headers on {{endpoints}} lead to clickjacking attacks. More help: https://www.owasp.org/index.php/Clickjacking
 
 h4. Fix
 
