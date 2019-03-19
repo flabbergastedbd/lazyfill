@@ -5,7 +5,7 @@
 // @description  try to take over the world!
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js#sha256=FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=
 // @require      https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.0/underscore-min.js#sha256=tr4FvXVZp8nkW7TvW4OYA5KWOs7fc2m5B6LN+AOn1VI=
-// @require https://cdn.rawgit.com/tunnelshade/lazyfill/0daf611f3064a0edfec79f3bb7e7d66cd8ebc98a/lazyfill.api.js#sha256=LXjaBo2C5J2LagAgu9wB23rFhyMYvPmYmz9JwBS4/b0=
+// @require https://cdn.rawgit.com/tunnelshade/lazyfill/c9c3b8e890b53abbacc1746d473ac43725a4fce5/lazyfill.api.js#sha256=LXjaBo2C5J2LagAgu9wB23rFhyMYvPmYmz9JwBS4/b0=
 // @match        https://jira.internal.site/
 // @grant        GM_registerMenuCommand
 // ==/UserScript==
