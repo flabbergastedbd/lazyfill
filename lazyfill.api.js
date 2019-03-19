@@ -79,7 +79,7 @@ function LazyFill() {
     'use strict';
 
     _.templateSettings = {
-      interpolate: /\{(.+?)\}/g,
+      interpolate: /\{\{(.+?)\}\}/g,
       evaluate: /\{%(.+?)%\}/g
     };
 
@@ -99,6 +99,6 @@ function LazyFill() {
   };
 
   // Metadata
-  this.VERSION = 0.2;
+  this.VERSION = 0.3;
   // ---------------------------- End exported Functions -----------------------------------
 }
